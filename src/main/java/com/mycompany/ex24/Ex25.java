@@ -11,7 +11,7 @@ public class Ex25 {
 
         Email email1 = new Email(adresaExpeditor, adresaDestinatar, "Intrebare", "Buna, Maria! Cum te simti?");
         
-        email1.trimite();  // Simuleaza trimiterea unui email
-        email1.primeste(); // Simuleaza primirea unui email
+        email1.trimite();
+        email1.primeste();
     }
 }
